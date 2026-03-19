@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+/* @theme {
   --color-brand-primary: #10b981;
   --color-brand-dark: #0f172a;
   --color-brand-accent: #6366f1;
@@ -29,4 +29,4 @@
   @apply bg-brand-primary text-white font-semibold py-4 px-6 rounded-2xl 
          active:scale-95 transition-all duration-200 flex items-center justify-center gap-2
          shadow-lg shadow-emerald-500/20;
-}
+} */
