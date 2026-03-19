@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #10b981;
+  --color-brand-dark: #0f172a;
+  --color-brand-accent: #6366f1;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased overflow-x-hidden;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-xl border border-white/20 shadow-xl;
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+.btn-primary {
+  @apply bg-brand-primary text-white font-semibold py-4 px-6 rounded-2xl 
+         active:scale-95 transition-all duration-200 flex items-center justify-center gap-2
+         shadow-lg shadow-emerald-500/20;
+}
